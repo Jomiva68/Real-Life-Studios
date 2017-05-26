@@ -74,7 +74,6 @@ class CarShops {
 
     class mitsubishi_car {
         side = "civ";
-        conditions = "license_civ_driver";
         vehicles[] = {
             { "ivory_evox", "" },
             { "ivory_evox_tuned", "" }
@@ -83,7 +82,6 @@ class CarShops {
 
     class exo_car {
         side = "civ";
-        conditions = "license_civ_driver";
         vehicles[] = {
             { "A3L_Alfa_Romeo_White", "" },
             { "A3L_Alfa_Romeo_Black", "" },
@@ -179,7 +177,6 @@ class CarShops {
 
     class worldfinemotors_shop {
         side = "civ";
-        conditions = "license_civ_driver";
         vehicles[] = {
             {"IVORY_REV", "" },
             {"quiet_Bugatti_blanche_f", "" },
@@ -332,7 +329,6 @@ class CarShops {
 
     class nissan_car {
         side = "civ";
-        conditions = "license_civ_driver";
         vehicles[] = {
             { "ivory_r34", "" },
             { "Nissan_GTR_White", "" },
@@ -350,7 +346,6 @@ class CarShops {
 
     class jeep_car {
         side = "civ";
-        conditions = "license_civ_driver";
         vehicles[] = {
             { "A3L_JeepWhiteBlack", "" },
             { "A3L_JeepGreenBlack", "" },
@@ -369,7 +364,6 @@ class CarShops {
 
     class don_car {
         side = "civ";
-        conditions = "call life_donlevel >= 1";
         vehicles[] = {
             { "A3L_GMC_Van_Don", "" },
             { "ivory_evox_don", "" }
@@ -378,7 +372,6 @@ class CarShops {
 
     class don_car_sped {
         side = "civ";
-        conditions = "call life_donlevel >= 4";
         vehicles[] = {
             { "red_venomgt_aquaberry", "" },
             { "red_venomgt_magma", "" },
@@ -453,7 +446,6 @@ class CarShops {
 
     class don_car_sped2 {
         side = "civ";
-        conditions = "call life_donlevel >=1";
         vehicles[] = {
             { "red_charger_aquaberry", "" },
             { "red_charger_magma", "" },
@@ -557,7 +549,6 @@ class CarShops {
 
     class volkswagen_car {
         side = "civ";
-        conditions = "license_civ_driver";
         vehicles[] = {
             { "red_beetle_66", "" },
             { "A3L_Touareg_Red", "" },
@@ -583,7 +574,6 @@ class CarShops {
 
     class peugeot_car {
         side = "civ";
-        conditions = "license_civ_driver";
         vehicles[] = {
             { "A3L_Peugeot_308_RCZ_Red", "" },
             { "A3L_Peugeot_308_RCZ_Black", "" },
@@ -597,7 +587,6 @@ class CarShops {
 
     class bmw_car {
         side = "civ";
-        conditions = "license_civ_driver";
         vehicles[] = {
             { "ivory_e36", "" },
             { "ivory_m3", "" },
@@ -616,7 +605,6 @@ class CarShops {
 
     class chev_car {
         side = "civ";
-        conditions = "license_civ_driver";
         vehicles[] = {
             { "shounka_avalanche_noir", "" },
             { "shounka_avalanche_bleufonce", "" },
@@ -645,7 +633,6 @@ class CarShops {
 
     class ford_car {
         side = "civ";
-        conditions = "license_civ_driver";
         vehicles[] = {
             { "tw_vic_taxi", "" },
             { "tw_vic", "" },
@@ -672,7 +659,6 @@ class CarShops {
 
     class dodge_car {
         side = "civ";
-        conditions = "license_civ_driver";
         vehicles[] = {
             { "A3L_GrandCaravan", "" },
             { "A3L_GrandCaravanBlk", "" },
@@ -693,7 +679,6 @@ class CarShops {
 
     class dezzie_car {
         side = "civ";
-        conditions = "license_civ_driver";
         vehicles[] = {
             { "IVORY_PRIUS", "" },
             { "A3L_PriusHelloKitty", "" },
@@ -705,7 +690,6 @@ class CarShops {
 
     class kart_shop {
         side = "civ";
-        conditions = "license_civ_driver";
         vehicles[] = {
             { "A3L_Karts", "" },
             { "C_Kart_01_Blu_F", "" },
@@ -717,7 +701,6 @@ class CarShops {
 
     class civ_truck {
         side = "civ";
-        conditions = "license_civ_trucking";
         vehicles[] = {
             { "A3L_Hyster60", "" },
             { "A3L_Dumptruck", "" },
@@ -765,7 +748,6 @@ class CarShops {
 
     class civ_air {
         side = "civ";
-        conditions = "license_civ_pilot";
         vehicles[] = {
             { "C_Heli_Light_01_civil_F", "" },
             { "O_Heli_Light_02_unarmed_F", "" },
@@ -791,7 +773,6 @@ class CarShops {
 
      class civ_ship {
         side = "civ";
-        conditions = "license_civ_boat";
         vehicles[] = {
             { "C_Rubberboat", "" },
             { "C_Boat_Civil_01_F", "" },
@@ -809,7 +790,6 @@ class CarShops {
 
     class reb_car {
         side = "civ";
-        conditions = "license_civ_rebel";
         vehicles[] = {
             { "ivory_evox_reb", "" },
             { "ivory_wrx_reb", "" },
@@ -826,7 +806,6 @@ class CarShops {
 
     class med_shop {
         side = "med";
-        conditions = "";
         vehicles[] = {
             { "Jonzie_Ambulance_Fire_Department", "" },
             { "Jonzie_Ambulance_CancerAwareness", "" },
@@ -858,7 +837,6 @@ class CarShops {
 
     class med_air_hs {
         side = "med";
-        conditions = "";
         vehicles[] = {
             { "EMS_ORCA", "" },
             { "EMS_TARU", "" },
@@ -871,7 +849,6 @@ class CarShops {
 
     class sp_car {
         side = "cop";
-        conditions = "";
         vehicles[] = {
             { "B_Quadbike_01_F", "" },
             { "tw_vic_marked", ""},
@@ -892,7 +869,6 @@ class CarShops {
 
     class cop_car {
         side = "cop";
-        conditions = "";
         vehicles[] = {
             { "tw_vic_marked", "" },
             { "tw_vic_slicktop", "" },
@@ -926,7 +902,6 @@ class CarShops {
 
     class dtu_car {
         side = "cop";
-        conditions = "";
         vehicles[] = {
             { "Jonzie_Mini_Cooper", "" },
             { "A3L_Cooper_concept_blue", "" },
@@ -983,7 +958,6 @@ class CarShops {
 
     class dtu_exotic {
         side = "cop";
-        conditions = "";
         vehicles[] = {
             { "A3L_Alfa_Romeo_White", "" },
             { "A3L_Alfa_Romeo_Black", "" },
@@ -1079,7 +1053,6 @@ class CarShops {
 
     class dtu_air {
         side = "cop";
-        conditions = "";
         vehicles[] = {
             { "C_Heli_Light_01_civil_F", "" },
             { "O_Heli_Light_02_unarmed_F", "" },
@@ -1105,7 +1078,6 @@ class CarShops {
 
     class dtu_truck {
         side = "cop";
-        conditions = "";
         vehicles[] = {
             { "A3L_Hyster60", "" },
             { "A3L_Dumptruck", "" },
@@ -1149,7 +1121,6 @@ class CarShops {
 
     class cop_air {
         side = "cop";
-        conditions = "call life_coplevel >= 3";
         vehicles[] = {
             { "EC635_Unarmed", "" },
             { "IVORY_BELL512_STATEPOLICE", "" },
@@ -1163,7 +1134,6 @@ class CarShops {
 
     class cop_airhq {
         side = "cop";
-        conditions = "call life_coplevel >= 3";
         vehicles[] = {
             { "EC635_Unarmed", "" },
             { "IVORY_BELL512_STATEPOLICE", "" },
@@ -1177,7 +1147,6 @@ class CarShops {
 
     class cop_ship {
         side = "cop";
-        conditions = "";
         vehicles[] = {
             { "B_Boat_Transport_01_F", "" },
             { "C_Boat_Civil_01_police_F", "" },
@@ -1197,7 +1166,6 @@ class CarShops {
 
     class ems_ship {
         side = "med";
-        conditions = "";
         vehicles[] = {
             { "B_Boat_Transport_01_F", "" },
             { "C_Boat_Civil_01_police_F", "" },
@@ -1217,7 +1185,6 @@ class CarShops {
 
     class DoJ_Car_Shop {
         side = "civ";
-        conditions = "call life_dojlevel >=1";
         vehicles[] = {
             { "red_charger_12_DOJ", "" },
             { "Urbanized_G65_DOJ", "" }
