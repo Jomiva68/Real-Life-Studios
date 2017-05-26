@@ -1820,7 +1820,7 @@ class LifeCfgVehicles {
 
     class tw_harley_blue {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"Bike"}, {""}, {""}, {""} };
         price = 110000;
         textures[] = {};
     };
