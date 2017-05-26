@@ -1220,7 +1220,7 @@ class LifeCfgVehicles {
 
     class Default {
         vItemSpace = -1;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = -1;
         textures[] = {};
     };
@@ -1230,7 +1230,7 @@ class LifeCfgVehicles {
     //World Fine Motors
     class ivory_rev {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 2000000;
         textures[] = {
             { "Matte White", "civ", {
@@ -1271,14 +1271,14 @@ class LifeCfgVehicles {
 
     class quiet_Bugatti_blanche_f {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1500000;
         textures[] = {};
     };
 
     class Jonzie_Viper {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1500000;
         textures[] = {};
     };
@@ -1286,7 +1286,7 @@ class LifeCfgVehicles {
     class Jonzie_Escalade {
         vItemSpace = 35;
         conditions = "";
-        price = 600000;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         textures[] = {
     { "Silver", "civ", 
         {
@@ -1353,133 +1353,133 @@ class LifeCfgVehicles {
 
     class shounka_gt_bleufonce {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1500000;
         textures[] = {};
     };
 
     class shounka_gt_grise {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1500000;
         textures[] = {};
     };
 
     class shounka_gt_jaune {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };;
         price = 1500000;
         textures[] = {};
     };
 
     class shounka_gt_noir {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1500000;
         textures[] = {};
     };
 
     class shounka_gt_orange {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1500000;
         textures[] = {};
     };
 
     class shounka_gt_rose {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1500000;
         textures[] = {};
     };
 
     class shounka_gt_rouge {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1500000;
         textures[] = {};
     };
 
     class shounka_gt_violet {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1500000;
         textures[] = {};
     };
 
     class Mrshounka_agera_p_bleu {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 2500000;
         textures[] = {};
     };
 
     class Mrshounka_agera_p_jaune {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 2500000;
         textures[] = {};
     };
 
     class Mrshounka_agera_p_noir {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 2500000;
         textures[] = {};
     };
 
     class shounka_f430_spider_bleufonce {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1350000;
         textures[] = {};
     };
 
     class shounka_f430_spider_grise {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1350000;
         textures[] = {};
     };
 
     class shounka_f430_spider_jaune {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1350000;
         textures[] = {};
     };
 
     class shounka_f430_spider_noir {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1350000;
         textures[] = {};
     };
 
     class shounka_f430_spider_orange {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1350000;
         textures[] = {};
     };
 
     class shounka_f430_spider_rose {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1350000;
         textures[] = {};
     };
 
     class shounka_f430_spider_rouge {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1350000;
         textures[] = {};
     };
 
     class shounka_f430_spider_violet {
         vItemSpace = 15;
-        conditions = "";
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 1350000;
         textures[] = {};
     };
