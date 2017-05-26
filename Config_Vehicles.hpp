@@ -18,7 +18,6 @@ class CarShops {
     */
     class civ_car {
         side = "civ";
-        conditions = "license_civ_driver";
         vehicles[] = {
             { "Jonzie_Mini_Cooper", { "", "", -1 } },
             { "A3L_Cooper_concept_blue", { "", "", -1 } },
